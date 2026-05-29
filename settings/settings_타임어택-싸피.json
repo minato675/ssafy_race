@@ -1,0 +1,15 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Car",
+  "BGM": true,
+  "EngineSound": false,
+  "Algo": {
+    "Map": "61"
+  },
+  "Vehicles": {
+    "Car1": {
+      "VehicleType": "PhysXCar",
+      "X": 0, "Y": 0, "Z": 0
+    }
+  }
+}

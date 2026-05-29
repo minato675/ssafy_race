@@ -1,0 +1,243 @@
+{
+  "map_id": "160",
+  "strategy": {
+    "straight_target_speed": 190,
+    "difficulty": "hp2 > hp4 > hp1 == hp3",
+    "hairpin_progress_ranges": {
+      "hp2": [
+        13.5,
+        24.5
+      ],
+      "hp1": [
+        42.0,
+        50.5
+      ],
+      "hp3": [
+        58.0,
+        67.5
+      ],
+      "hp4": [
+        78.0,
+        94.0
+      ]
+    }
+  },
+  "penalty_weight": 0.12,
+  "selected": null,
+  "fastest": null,
+  "ranking_by_score": [
+    {
+      "name": "v2_map160_strategy_l1_light",
+      "bot_file": "C:\\Simulator\\Template_Python\\Bot_Python\\v2_map160_strategy_l1_light.py",
+      "completed": true,
+      "elapsed_wall": 173.464,
+      "penalty_count": 0,
+      "stdout_tail": "[MyCar] Start Bot!\n[DrivingController] Welcome to Algorithm Contest! Driving will be started.\n[DrivingController] Setting file position : C:\\Users\\SSAFY\\Documents\\Airsim\\settings.json\n[DrivingController] Map : 160\n[DrivingController] enable_api_control = True\n[DrivingController] Player name : Car1\nConnected!\nClient Ver:1 (Min Req: 1), Server Ver:1 (Min Req: 1)\n\n[MyCar] End Bot!\n",
+      "stderr_tail": "",
+      "race_time": 169.81625366210938,
+      "lap1_time_est": 169.81625366210938,
+      "lap2_time_est": 0.0,
+      "first_lap_time": 0.0,
+      "race_times": [],
+      "current_lap": 2,
+      "lap_progress": 100.0,
+      "complete": true,
+      "returncode": 0,
+      "model": "v2_map160_strategy_l1_light",
+      "map_id": "160",
+      "speed_profile": {
+        "hp2": 60,
+        "hp4": 66,
+        "hp13": 72
+      },
+      "brake_profile": {
+        "hard_gap": 28,
+        "hard_throttle": 0.15,
+        "hard_brake": 0.9,
+        "mid_gap": 18,
+        "mid_throttle": 0.3,
+        "mid_brake": 0.6,
+        "soft_gap": 8,
+        "soft_throttle": 0.55,
+        "soft_brake": 0.24
+      },
+      "score": 169.81625366210938
+    }
+  ],
+  "ranking_by_time": [
+    {
+      "name": "v2_map160_strategy_l1_light",
+      "bot_file": "C:\\Simulator\\Template_Python\\Bot_Python\\v2_map160_strategy_l1_light.py",
+      "completed": true,
+      "elapsed_wall": 173.464,
+      "penalty_count": 0,
+      "stdout_tail": "[MyCar] Start Bot!\n[DrivingController] Welcome to Algorithm Contest! Driving will be started.\n[DrivingController] Setting file position : C:\\Users\\SSAFY\\Documents\\Airsim\\settings.json\n[DrivingController] Map : 160\n[DrivingController] enable_api_control = True\n[DrivingController] Player name : Car1\nConnected!\nClient Ver:1 (Min Req: 1), Server Ver:1 (Min Req: 1)\n\n[MyCar] End Bot!\n",
+      "stderr_tail": "",
+      "race_time": 169.81625366210938,
+      "lap1_time_est": 169.81625366210938,
+      "lap2_time_est": 0.0,
+      "first_lap_time": 0.0,
+      "race_times": [],
+      "current_lap": 2,
+      "lap_progress": 100.0,
+      "complete": true,
+      "returncode": 0,
+      "model": "v2_map160_strategy_l1_light",
+      "map_id": "160",
+      "speed_profile": {
+        "hp2": 60,
+        "hp4": 66,
+        "hp13": 72
+      },
+      "brake_profile": {
+        "hard_gap": 28,
+        "hard_throttle": 0.15,
+        "hard_brake": 0.9,
+        "mid_gap": 18,
+        "mid_throttle": 0.3,
+        "mid_brake": 0.6,
+        "soft_gap": 8,
+        "soft_throttle": 0.55,
+        "soft_brake": 0.24
+      },
+      "score": 169.81625366210938
+    }
+  ],
+  "candidates": [
+    {
+      "name": "v2_map160_strategy_l1_light",
+      "speed_profile": {
+        "hp2": 60,
+        "hp4": 66,
+        "hp13": 72
+      },
+      "brake_profile": {
+        "hard_gap": 28,
+        "hard_throttle": 0.15,
+        "hard_brake": 0.9,
+        "mid_gap": 18,
+        "mid_throttle": 0.3,
+        "mid_brake": 0.6,
+        "soft_gap": 8,
+        "soft_throttle": 0.55,
+        "soft_brake": 0.24
+      }
+    },
+    {
+      "name": "v2_map160_strategy_l2_mild",
+      "speed_profile": {
+        "hp2": 54,
+        "hp4": 60,
+        "hp13": 66
+      },
+      "brake_profile": {
+        "hard_gap": 24,
+        "hard_throttle": 0.12,
+        "hard_brake": 1.0,
+        "mid_gap": 15,
+        "mid_throttle": 0.25,
+        "mid_brake": 0.72,
+        "soft_gap": 7,
+        "soft_throttle": 0.5,
+        "soft_brake": 0.3
+      }
+    },
+    {
+      "name": "v2_map160_strategy_l3_balanced",
+      "speed_profile": {
+        "hp2": 48,
+        "hp4": 54,
+        "hp13": 60
+      },
+      "brake_profile": {
+        "hard_gap": 20,
+        "hard_throttle": 0.08,
+        "hard_brake": 1.0,
+        "mid_gap": 12,
+        "mid_throttle": 0.2,
+        "mid_brake": 0.82,
+        "soft_gap": 6,
+        "soft_throttle": 0.45,
+        "soft_brake": 0.38
+      }
+    },
+    {
+      "name": "v2_map160_strategy_l4_safe",
+      "speed_profile": {
+        "hp2": 42,
+        "hp4": 48,
+        "hp13": 54
+      },
+      "brake_profile": {
+        "hard_gap": 17,
+        "hard_throttle": 0.05,
+        "hard_brake": 1.0,
+        "mid_gap": 10,
+        "mid_throttle": 0.16,
+        "mid_brake": 0.9,
+        "soft_gap": 5,
+        "soft_throttle": 0.38,
+        "soft_brake": 0.46
+      }
+    },
+    {
+      "name": "v2_map160_strategy_l5_strong",
+      "speed_profile": {
+        "hp2": 36,
+        "hp4": 42,
+        "hp13": 48
+      },
+      "brake_profile": {
+        "hard_gap": 14,
+        "hard_throttle": 0.02,
+        "hard_brake": 1.0,
+        "mid_gap": 8,
+        "mid_throttle": 0.12,
+        "mid_brake": 0.95,
+        "soft_gap": 4,
+        "soft_throttle": 0.32,
+        "soft_brake": 0.55
+      }
+    }
+  ],
+  "results": [
+    {
+      "name": "v2_map160_strategy_l1_light",
+      "bot_file": "C:\\Simulator\\Template_Python\\Bot_Python\\v2_map160_strategy_l1_light.py",
+      "completed": true,
+      "elapsed_wall": 173.464,
+      "penalty_count": 0,
+      "stdout_tail": "[MyCar] Start Bot!\n[DrivingController] Welcome to Algorithm Contest! Driving will be started.\n[DrivingController] Setting file position : C:\\Users\\SSAFY\\Documents\\Airsim\\settings.json\n[DrivingController] Map : 160\n[DrivingController] enable_api_control = True\n[DrivingController] Player name : Car1\nConnected!\nClient Ver:1 (Min Req: 1), Server Ver:1 (Min Req: 1)\n\n[MyCar] End Bot!\n",
+      "stderr_tail": "",
+      "race_time": 169.81625366210938,
+      "lap1_time_est": 169.81625366210938,
+      "lap2_time_est": 0.0,
+      "first_lap_time": 0.0,
+      "race_times": [],
+      "current_lap": 2,
+      "lap_progress": 100.0,
+      "complete": true,
+      "returncode": 0,
+      "model": "v2_map160_strategy_l1_light",
+      "map_id": "160",
+      "speed_profile": {
+        "hp2": 60,
+        "hp4": 66,
+        "hp13": 72
+      },
+      "brake_profile": {
+        "hard_gap": 28,
+        "hard_throttle": 0.15,
+        "hard_brake": 0.9,
+        "mid_gap": 18,
+        "mid_throttle": 0.3,
+        "mid_brake": 0.6,
+        "soft_gap": 8,
+        "soft_throttle": 0.55,
+        "soft_brake": 0.24
+      },
+      "score": 169.81625366210938
+    }
+  ],
+  "updated_at_epoch": 1779952194.3421621
+}

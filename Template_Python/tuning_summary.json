@@ -1,0 +1,59 @@
+{
+  "best": {
+    "name": "baseline_v2",
+    "race_time": 115.06216430664062
+  },
+  "results": [
+    {
+      "name": "v2_tune_safe_corner",
+      "bot_file": "C:\\Simulator\\Template_Python\\Bot_Python\\v2_tune_safe_corner.py",
+      "completed": true,
+      "elapsed_wall": 124.079,
+      "penalty_count": 0,
+      "stdout_tail": "[MyCar] Start Bot!\n[DrivingController] Welcome to Algorithm Contest! Driving will be started.\n[DrivingController] Setting file position : C:\\Users\\SSAFY\\Documents\\Airsim\\settings.json\n[DrivingController] Map : 30\n[DrivingController] enable_api_control = True\n[DrivingController] Player name : Car1\nConnected!\nClient Ver:1 (Min Req: 1), Server Ver:1 (Min Req: 1)\n\n[MyCar] End Bot!\n",
+      "stderr_tail": "",
+      "race_time": 117.9638900756836,
+      "lap1_time_est": 117.9638900756836,
+      "lap2_time_est": 0.0,
+      "first_lap_time": 0.0,
+      "race_times": [],
+      "current_lap": 3,
+      "lap_progress": 100.0,
+      "complete": true
+    },
+    {
+      "name": "v2_tune_fast_straight",
+      "bot_file": "C:\\Simulator\\Template_Python\\Bot_Python\\v2_tune_fast_straight.py",
+      "completed": true,
+      "elapsed_wall": 121.572,
+      "penalty_count": 13,
+      "stdout_tail": "[MyCar] Start Bot!\n[DrivingController] Welcome to Algorithm Contest! Driving will be started.\n[DrivingController] Setting file position : C:\\Users\\SSAFY\\Documents\\Airsim\\settings.json\n[DrivingController] Map : 30\n[DrivingController] enable_api_control = True\n[DrivingController] Player name : Car1\nConnected!\nClient Ver:1 (Min Req: 1), Server Ver:1 (Min Req: 1)\n\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\n[MyCar] End Bot!\n",
+      "stderr_tail": "",
+      "race_time": 115.55998229980469,
+      "lap1_time_est": 115.55998229980469,
+      "lap2_time_est": 0.0,
+      "first_lap_time": 0.0,
+      "race_times": [],
+      "current_lap": 3,
+      "lap_progress": 100.0,
+      "complete": true
+    },
+    {
+      "name": "v2_tune_soft_center",
+      "bot_file": "C:\\Simulator\\Template_Python\\Bot_Python\\v2_tune_soft_center.py",
+      "completed": true,
+      "elapsed_wall": 123.084,
+      "penalty_count": 7,
+      "stdout_tail": "[MyCar] Start Bot!\n[DrivingController] Welcome to Algorithm Contest! Driving will be started.\n[DrivingController] Setting file position : C:\\Users\\SSAFY\\Documents\\Airsim\\settings.json\n[DrivingController] Map : 30\n[DrivingController] enable_api_control = True\n[DrivingController] Player name : Car1\nConnected!\nClient Ver:1 (Min Req: 1), Server Ver:1 (Min Req: 1)\n\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\nPenalty applied!!!\n[MyCar] End Bot!\n",
+      "stderr_tail": "",
+      "race_time": 116.87059783935547,
+      "lap1_time_est": 116.87059783935547,
+      "lap2_time_est": 0.0,
+      "first_lap_time": 0.0,
+      "race_times": [],
+      "current_lap": 3,
+      "lap_progress": 100.0,
+      "complete": true
+    }
+  ]
+}
